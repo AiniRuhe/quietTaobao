@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+    background-color: #f4f4f4;
+	height: 1000px;}
+.app{
+    width: 100%;
+    height: 100%;
+}
+.app .top{
+     width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+  /*border: 1px solid black;*/
+}
+.app .top .zh{
+  width: 1190px;
+  height: 35px;
+ margin: 0 auto;
+  /*border: 1px solid black*/
+}
+.app .top .zh .top-l{
+    float: left;
+}
+.app .top .zh .top-r{
+    float: right;
+}
+.app .top .zh li {
+    float: left;
+    margin-right: 7px;
+}
+.app .top .zh li a{
+     color: #6c6c6c;
+  font-size: 12px;
+  line-height: 35px;
+    padding: 6px;
+}
+.app .top .zh li .dalu{
+      color: #3c3c3c;
+  font-size: 12px;
+  line-height: 35px;
+}
+.app .top .zh li a:hover{
+    color: orange;
+}
+.app .top .zh li .login{
+    color: orange;
+}
+.app .top .zh .xiahua span{
+      color: #ddd;
+  line-height: 35px;
+}
+/*导航结束*/
+.app .er {
+    width: 100%;
+    height: 97px;
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 9px;
+}
+.app .er .search{
+    width: 1190px;
+    height: 88px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.app .er .search .logo{
+    display: inline-block;
+    border: 1px solid black;
+    width: 250px;
+    height: 87px;
+    vertical-align: top;
+}
+.app .er .search .logo h1{
+    line-height: 80px;
+    margin-left: 70px;
+}
+.app .er .search .before {
+    position: relative;
+    width: 630px;
+    height: 87px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+.app .er .search .before .bj li{
+    float: left;
+    margin-left: 30px;
+    color: orange;
+}
+.app .er .search .before .select{
+background: linear-gradient(to right,orangered 0,orangered 100%);
+    color: #777777;
+    font-weight: 700;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+}
+.app .er .search .before .put{
+    border: 2px solid orange;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 579px;
+    height: 35px;
+}
+.app .er .search .before button{
+    width: 50px;
+    height: 39px;
+    margin-left: -11px;
+    color: white;
+    border-color: orange;
+    background-color: orange;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius: 6px;
+}
+.app .er .search .before .ft {
+ width: 629px;
+    height: 28px;
+    border: 1px solid black;
+}
+.app .er .search .before .ft li{
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 4px;
+}
+.app .er .search .before .ft li:hover{
+    color: orange;
+}
+.app .er .search .before .ft li select{
+    color: orange;
+}
+.app .er .search .behind{
+display: inline-block;
+    width: 87px;
+    height: 87px;
+    vertical-align: top;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.app .er .search .behind .sj{
+    color: orange;
+    margin-left: 11px;
+}
+/*搜索结束*/
+.app .san{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+}
+.app .san .bt{
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+.app .san .bt .zt{
+    display: inline-block;
+    font-size: 30px;
+    width: 190px;
+    color: white;
+    background-color: orangered;
+    height: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+.app .san .bt .de {
+    width: 219px;
+    height: 30px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+.app .san .bt .de li{
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+.app .san .bt .tqg{
+    display: inline-block;
+    width: 354px;
+    height: 30px;
+}
+.app .san .bt .tqg li{
+    float: left;
+    color:white;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.app .san .bt .fz{
+    display: inline-block;
+    width: 337px;
+    height: 30px;
+}
+.app .san .bt .fz li{
+    font-weight: 700;
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+/*中间结束*/
+.app .dt {
+    width: 100%;
+    height: 630px;
+}
+.app .dt .zo{
+    width: 1190px;
+    height: 630px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.app .dt .zo .le{
+    height:100%;
+    width: 900px;
+    border: 1px solid black;
+display: inline-block;
+}
+.app .dt .zo .le .sh{
+    width: 900px;
+    height: 522px;
+    border: 1px solid black;
+}
+.app .dt .zo .le .zle{
+    width: 190px;
+    height: 522px;
+    position: relative;
+    border: 1px solid orange;
+    background-color: white;
+    display: inline-block;
+}
+.app .dt .zo .le .zle li{
+    color: black;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+}
+.app .dt .zo .le .sh .zzh {
+    display: inline-block;
+    border: 1px solid black;
+    width: 520px;
+    height: 512px;
+    vertical-align: top;
+}
+.app .dt .zo .le .sh .zzh .zs{
+    color: black;
+    width: 520px;
+    height: 230px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 280px;
+    border: 1px solid black;
+}
+.app .dt .zo .le .sh .zx{
+color: black;
+    width: 520px;
+    height: 230px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 230px;
+    vertical-align: top;
+}
+.app .dt .zo .le .sh .xi{
+    color: black;
+    width: 520px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 5px;
+    line-height: 32px;
+    vertical-align: top;
+}
+.app .dt .zo .le .sh .zri{
+    width: 168px;
+    display: inline-block;
+    height: 521px;
+    vertical-align:top;
+    border: 1px solid black;
+}
+.app .dt .zo .le .sh .zri .gj{
+    color: black;
+    width: 168px;
+    height: 230px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 280px;
+    border: 1px solid black;
+}
+.app .dt .zo .le .sh .zri .rm{
+    color: black;
+    width: 168px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 5px;
+    line-height: 32px;
+    vertical-align: top;
+}
+.app .dt .zo .le .sh .zri .md{
+    color: black;
+    width: 168px;
+    height: 230px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 230px;
+    vertical-align: top;
+}
+.app .dt .zo .le .xia{
+    width: 890px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+.app .dt .zo .ri{
+    width: 278px;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+.app .dt .zo .ri .db{
+    width: 278px;
+    height: 140px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+.app .dt .zo .ri .db .nh{
+    width: 278px;
+    height: 100px;
+    border: 1px solid black;
+    vertical-align: top;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+.app .dt .zo .ri .db .zc button{
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    background-color: #ff5000;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #ff5000;
+    line-height: 26px;
+}
+.app .dt .zo .ri .jj{
+    width: 278px;
+    height: 30px;
+    background-color: #ffe4dd;
+    border:1px solid black;
+}
+.app .dt .zo .ri .jj .jb{
+    line-height: 30px;
+    color: #ff5000;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.app .dt .zo .ri .xs{
+    width: 278px;
+    height: 150px;
+    border: 1px solid black;
+}
+.app .dt .zo .ri .gg{
+        width: 278px;
+    height: 24px;
+    border: 1px solid black;
+}
+.app .dt .zo .ri .gg li{
+    float: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 13px;
+    line-height: 24px;
+    text-align: center;
+}
+.app .dt .zo .ri .gg li:hover{
+    color:orangered;
+}
+.app .dt .zo .ri .gg .nr{
+    width: 278px;
+    height: 30px;
+    border: 1px solid black;
+}
+.app .dt .zo .ri .nr li{
+
+   float: left;
+}
+.app .dt .zo .ri .yy{
+    width: 278px;
+    height: 197px;
+    border: 1px solid black;
+}
+.app .dt .zo .ri .yy .yo .rj{
+    width: 67px;
+    height: 64px;
+    float: left;
+    text-align: center;
+    line-height: 64px;
+    border: 1px solid #c0c0c0;
+}
+.app .dt .zo .ri .yx{
+    width: 278px;
+    height: 100px;
+    border: 1px solid black;
+}
+.app .dt .zo .ri .yx .ru{
+    width: 277px;
+    height: 29px;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+
+}
+.app .dt .zo .ri .yx .ru span{
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+}
+.app .dt .zo .ri .yx li{
+    width: 53px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
