@@ -1,1 +1,1 @@
-# quietTaobao
+# 静态淘宝首页展示
